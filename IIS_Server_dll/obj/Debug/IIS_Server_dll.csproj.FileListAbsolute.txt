@@ -1,0 +1,5 @@
+C:\Users\Administrator\Desktop\IIS_backdoor-master\IIS_Server_dll\obj\Debug\IIS_Server_dll.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\IIS_backdoor-master\IIS_Server_dll\bin\Debug\IIS_Server_dll.dll
+C:\Users\Administrator\Desktop\IIS_backdoor-master\IIS_Server_dll\bin\Debug\IIS_Server_dll.pdb
+C:\Users\Administrator\Desktop\IIS_backdoor-master\IIS_Server_dll\obj\Debug\IIS_Server_dll.dll
+C:\Users\Administrator\Desktop\IIS_backdoor-master\IIS_Server_dll\obj\Debug\IIS_Server_dll.pdb
