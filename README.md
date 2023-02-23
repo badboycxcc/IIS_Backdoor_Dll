@@ -15,7 +15,7 @@ Cookie: set-cookie=bmV0IHVzZXI=
 
 ---分割线---
 
-原项目地址：https://github.com/WBGlIl/IIS_backdoor。
+原项目地址：https://github.com/WBGlIl/IIS_backdoor
 
 主要是实现了3个功能执行cmd命令，C#调用powershell，执行shellcode
 
